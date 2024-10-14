@@ -41,11 +41,11 @@ a{
 }
 .first-section{
     background-image: url(images/header-bg.png);
-    background-size: cover;
+    background-position: cover;
 }
 .second-section{
     background-image: url(images/biography-bg.png);
-    background-size: cover;
+    background-position: cover;
 }
 .position{
     position: relative;
@@ -77,13 +77,10 @@ a{
     text-align: center;
     margin-top: 100px;
 }
-.pics{
-    width: 30%;
+.pics img{
+    width: 23%;
+    padding-left: 2%;
     padding-top: 50px;
-    margin: 1.5%;
-}
-#yo{
-    margin-left: 25px;
 }
 footer{
     text-align: center;
@@ -93,13 +90,14 @@ footer{
 .third-section{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: cover;
 }
 #chikichiki{
     height: 500px;
 }
 .fourth-section{
-    background-image: url(images/footer-bg.png)
+    background-image: url(images/footer-bg.png);
+    background-position: cover;
 }
 .fourth-section p{
     font-weight: 500;
@@ -137,4 +135,7 @@ footer{
 }
 #halum{
 margin-right: 10%;
+}
+#vorta{
+    margin-left: 180px;
 }
